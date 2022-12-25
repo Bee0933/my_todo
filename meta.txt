@@ -1,0 +1,6 @@
+- create database for todo app
+- create crud for todo_sessions to db
+- create crud todo endpoints 
+- add basic authentication
+- write unit tests
+- Readme 
