@@ -12,12 +12,12 @@ jobs:
     - name: install dependencies
       run: |
         make install
-#     - name: Format code
-#       run: |
-#         make format
-#     - name: lint with pylint
-#       run: |
-#         make lint
+    - name: Format code
+      run: |
+        make format
+    - name: lint with pylint
+      run: |
+        make lint
 #     - name: unit tests with pytest
 #       run: |
 #         make test
