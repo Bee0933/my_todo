@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from .database import engine, Base
 import logging
 

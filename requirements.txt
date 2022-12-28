@@ -1,6 +1,8 @@
 Black
 fastapi[all]
+fastapi_utils
 fire
+passlib[bcrypt]
 pylint
 python-decouple
 SQLAlchemy

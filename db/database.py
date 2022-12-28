@@ -9,6 +9,4 @@ engine = create_engine(url=config("CONECTION_STR"), echo=True)
 Base = declarative_base()
 
 # create database session instance
-sessionLocal = scoped_session(
-    sessionmaker(autocommit=False, autoflush=False, bind=engine)
-)
+sessionLocal = scoped_session(sessionmaker(bind=engine))

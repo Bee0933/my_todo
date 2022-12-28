@@ -4,10 +4,10 @@ install:
 		pip install -r requirements.txt 
 format:
 	# format python code with black
-	black *.py db/*.py
+	black *.py db/*.py endpoints/*.py endpoints/security/*.py schemas/*.py
 lint:
 	# check code syntaxes
-	pylint --disable=R,C *.py db/*.py
+	pylint --disable=R,C *.py db/*.py endpoints/*.py endpoints/security/*.py schemas/*.py
 test:
 	# unit tests
 	
